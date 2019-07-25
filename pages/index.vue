@@ -3,7 +3,6 @@
     <div>
       <logo />
       <h1 class="title">
-        {{ Configs.title }}
         <div v-html="Content"></div>
       </h1>
       <h2 class="subtitle">
@@ -26,7 +25,6 @@
 </template>
 
 <script>
-import config from '~/nuxt.config'
 import Logo from '~/components/Logo.vue'
 import Content from '~/md/hello.md'
 
@@ -35,9 +33,6 @@ export default {
     Logo
   },
   computed: {
-    Configs(){
-      return config
-    },
     Content() {
       return Content
     }
