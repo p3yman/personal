@@ -27,7 +27,13 @@ module.exports = {
   /*
   ** Global CSS
   */
-  css: [],
+  css: [
+    '@/assets/css/linearicons.css',
+    '@/assets/css/font-awesome.min.css',
+    '@/assets/css/bootstrap.css',
+    '@/assets/css/animate.min.css',
+    '@/assets/css/main.css',
+  ],
 
   /*
   ** Plugins to load before mounting the App
@@ -60,7 +66,7 @@ module.exports = {
   },
 
   router: {
-    base: '/personal/',
+    // base: '/personal/',
   },
 
   generate: {
