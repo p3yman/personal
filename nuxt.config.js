@@ -65,6 +65,10 @@ module.exports = {
     }
   },
 
+  router: {
+    base: '/personal/'
+  },
+
   generate: {
     dir: 'docs',
     routes: function () {
